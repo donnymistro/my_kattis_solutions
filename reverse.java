@@ -1,4 +1,3 @@
-package kattis_problems;
 import java.util.*;
 public class reverse {
 /**
@@ -9,7 +8,7 @@ public class reverse {
 *@author Donald Lanoux
 */
 	public static void main(String[] args) {
-		//Get the first line to determine the array size
+		// Get the first line to determine the array size
 		Scanner myScanner = new Scanner(System.in);
 		int inputSize = myScanner.nextInt();
 		// Create the array based on this size
@@ -21,7 +20,7 @@ public class reverse {
 			numsArray[counter] = temp;
 			counter++;
 		}
-		//Finally, just print out the array in reverse order
+		// Finally, just print out the array in reverse order
 		for(int i = numsArray.length - 1; i >= 0; i--) {
 			System.out.println(numsArray[i]);
 		}
